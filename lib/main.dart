@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home.dart';
+import 'layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Montserrat',
           colorSchemeSeed: Colors.blue,
           brightness: Brightness.dark),
-      home: const MyHomePage(title: 'Mon Resto'),
+      home: const MyLayout(title: 'Mon Resto'),
     );
   }
 }
